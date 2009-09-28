@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/heading" android:layout_gravity="center" android:layout_marginTop="10px" android:textSize="30px" android:layout_marginBottom="10px"></TextView>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/assetid" android:visibility="gone" android:inputType="numberDecimal" android:lines="1" android:maxLength="20" android:textSize="12px"></TextView><EditText android:layout_height="wrap_content" android:numeric="decimal" android:singleLine="true" android:layout_gravity="center" android:layout_width="fill_parent" android:id="@+id/assetid" android:text="7549721333655376023" android:gravity="center_vertical" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:typeface="monospace" android:inputType="phone" android:textSize="20px"></EditText>
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_margin="20px" android:text="@string/okbutton" android:minWidth="120px" android:textSize="24px" android:id="@+id/okbutton"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_margin="20px" android:minWidth="120px" android:textSize="24px" android:text="@string/clearbutton" android:id="@+id/clearbutton"></Button></LinearLayout>
+
+
+
+</LinearLayout>

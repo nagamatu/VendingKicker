@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Vending Kicker</string>
+<string name="heading">Vending Kicker</string>
+<string name="assetid">assetId: </string>
+<string name="okbutton">Kick</string>
+<string name="clearbutton">Clear</string>
+<string name="menu_info">About</string>
+<string name="info_title">About Vending Kicker</string>
+<string name="info_msg">You can download specified ADC2 application. But you need to know asset id for application.</string>
+<string name="about_ok">OK</string>
+</resources>

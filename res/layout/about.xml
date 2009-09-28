@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:minWidth="320px"
+              >
+    <LinearLayout android:orientation="horizontal"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="wrap_content"
+    		  android:padding="10dp"
+    		  android:gravity="center"
+    		  >
+	    <ImageView 
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_marginRight="10dp"
+	               android:src="@drawable/icon"
+	               />
+	    <LinearLayout android:orientation="vertical"
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="10dp"
+	    		>
+		    <TextView 
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:textColor="#FFF"
+		              android:text="@string/info_msg"
+		              />
+		    <TextView android:layout_width="wrap_content"
+		    		  android:layout_height="wrap_content"
+		    		  android:textColor="#FFF"
+		    		  android:gravity="center"
+		    		  android:paddingTop="10px"
+		    		  android:text="nagamatu@gmail.com"
+		    		  />
+	    </LinearLayout>
+    </LinearLayout>
+    <Button   android:layout_width="wrap_content"
+    		  android:layout_height="wrap_content"
+    		  android:minWidth="80px"
+    		  android:text="@string/about_ok"
+    		  android:id="@+id/about_ok"
+    		  android:layout_margin="10dp"
+    		  />
+</LinearLayout>

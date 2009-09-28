@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">販売機蹴り</string>
+<string name="heading">販売機蹴り</string>
+<string name="assetid">assetId: </string>
+<string name="okbutton">蹴る</string>
+<string name="clearbutton">消去</string>
+<string name="menu_info">説明</string>
+<string name="info_title">販売機蹴りについて</string>
+<string name="info_msg">特定の ADC2アプリケーションをダウンロードすることができます。ただし、アプリケーションの assetIdを指定する必要があります。</string>
+<string name="about_ok">OK</string>
+</resources>
